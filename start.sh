@@ -1,0 +1,1 @@
+./srcds_run -game garrysmod -console -port serverport  +ip 0.0.0.0 +host_workshop_collection +map gm_flatgrass +gamemode sandbox -strictportbind -norestart +sv_setsteamaccount +maxplayers 20  -tickrate 22  $( [ "$LUA_REFRESH" == "1" ] || printf %s '-disableluarefresh' )
